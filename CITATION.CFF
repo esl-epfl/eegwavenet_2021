@@ -1,0 +1,31 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: EEGWaveNet 2021
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Punnawish
+    family-names: Thuwajit
+    affiliation: Vidyasirimedhi Institute of Science and Technology
+  - given-names: Clément
+    family-names: Samanos
+    affiliation: EPFL-ESL
+  - given-names: Jonathan
+    family-names: Dan
+    email: jonathan.dan@epfl.ch
+    affiliation: EPFL-ESL
+    orcid: 'https://orcid.org/0000-0002-2338-572X'
+identifiers:
+  - type: doi
+    value: 10.1109/TII.2021.3133307
+    description: Original algorithm description
+repository-code: 'https://github.com/esl-epfl/eegwavenet_2021'
+abstract: >-
+  This repository re-implements Jean Gotman, 'EEGWaveNet: Multiscale CNN-Based 
+  Spatiotemporal Feature Extraction for EEG Seizure Detection', IEEE 
+  Transactions on Industrial Informatics, 2021.
+license: MIT
